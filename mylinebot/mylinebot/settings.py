@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'zudiiBaby.apps.ZudiibabyConfig', ## 這邊可能會出錯
+
 ]
 
 MIDDLEWARE = [

@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-csiikgwn-w8*z^1)&oz79s&q*18+d@%o%(#%c=8a@b9@%5tmly
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '72aa-140-119-121-6.ngrok.io'
+]
 
 
 # Application definition
@@ -37,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'zudiiBaby.apps.ZudiibabyConfig',
 ]
 
 MIDDLEWARE = [
@@ -121,3 +125,9 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+LINE_CHANNEL_ACCESS_TOKEN = 'Wn00HXQsK+h8lnq1JNjL8pxQr8y+5yizwlvyon22K5/s4MkwZPMuHI7GB/Z2j6eFmf6zkwQs+zgP5sIpM6TtWOHDcUcqH6JvzLaZCjrecgvjSvdD3Vdj80VAfi/wfexbvtq0h98RfcLPavfteggj4gdB04t89/1O/w1cDnyilFU='
+ 
+LINE_CHANNEL_SECRET = 'e9585eb0ee1dfdb931e4c7abc7f5b7e1'
+
